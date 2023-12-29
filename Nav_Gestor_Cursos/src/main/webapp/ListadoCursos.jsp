@@ -31,7 +31,7 @@
 			<td><%=curso.getPrecio()%></td>
 			<form action="NuevaDuracion" method="GET">	
 				<td> <input type="text"  name="nuevaDuracion" placeholder="Nueva duracion"></td>
-				<td><input type="submit" value="Cambiar"></td>			
+				<td><input type="submit" name="nombre" value="Cambiar"></td>			
 			</form>
 			<td>
 			<!-- con esta linea le decimos que le pasa el parametro nombre al Servlet y le decimos a que corresponda -->
@@ -50,6 +50,12 @@
 		</tr>
 		
 	</table>
+	
+	
+	<form action="PrecioMax" method="GET">
+		<input type="text" name="precioMax" >
+		<input type="submit" value="Filtrar por precio">
+	</form>
 
 </body>
 </html>

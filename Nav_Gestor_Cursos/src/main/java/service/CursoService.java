@@ -1,15 +1,15 @@
 package service;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import model.Curso;
 
 public class CursoService {
 	
-	private ArrayList<Curso> cursos=new ArrayList<>();
 
 	//2-Pide el precio maximo y muestra una lista de los cursos
-		public  ArrayList<Curso> preciosCursoMax(double precioMax) {
+		public  ArrayList<Curso> preciosCursoMax( List<Curso> cursos,double precioMax) {
 			//creamos un Arraylist auxiliar con los cursos creado
 			ArrayList<Curso> auxiliar=new ArrayList<>();
 		
