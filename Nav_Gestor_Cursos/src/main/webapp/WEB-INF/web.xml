@@ -9,5 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
- 
+  <servlet>
+    <description></description>
+    <display-name>BuscadorServlet</display-name>
+    <servlet-name>BuscadorServlet</servlet-name>
+    <servlet-class>servlet.BuscadorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuscadorServlet</servlet-name>
+    <url-pattern>/BuscadorServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

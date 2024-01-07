@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style >
+	body{font-family: sans-serif;
+		}
+	form{border-width: 1px solid;
+		}
+
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form  action="LoginServlet" method="GET">
+		<input type="text" name="usuario" placeholder="Ingresa su usuario"><br> 
+		<input type="text" name="password" placeholder="Ingrese su password"><br>
+		<!-- con value marcamos lo que se va a enviar al loginservlet -->
+		<input type="checkbox" name="recordar" value="1"> Recuerdame <br>
+	<input type="submit" name="login">
+	</form>
+
+</body>
+</html>
